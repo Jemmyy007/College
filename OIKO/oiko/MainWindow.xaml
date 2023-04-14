@@ -1,0 +1,18 @@
+﻿<Window x:Class="oiko.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:oiko"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="350" ResizeMode="NoResize">
+    <Grid Background="#FFA48BFF">
+        <Button Content="Войти" HorizontalAlignment="Center" Margin="0,284,0,0" VerticalAlignment="Top" Height="30" Width="80" FontSize="14" FontWeight="Bold" Click="Button_Click" BorderBrush="#FF3733BD" Background="#FF3733BD" Foreground="White"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="32,165,0,0" VerticalAlignment="Top" FontSize="14" Foreground="White" RenderTransformOrigin="0.325,0.532"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="27,221,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.297,0.522" FontSize="14" Foreground="White"/>
+        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Center" Margin="0,225,0,0" VerticalAlignment="Top" Width="170" Height="25" FontSize="14"/>
+        <TextBox x:Name="txtLogin" HorizontalAlignment="Center" Margin="0,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" Height="25" TextChanged="TextBox_TextChanged" FontSize="14"/>
+        <Image Margin="96,10,96,241" Source="/oiko11.png"/>
+        <Label Content="V 1.5.2" HorizontalAlignment="Left" Margin="284,337,0,0" VerticalAlignment="Top" Foreground="White" RenderTransformOrigin="0.664,0.509"/>
+    </Grid>
+</Window>

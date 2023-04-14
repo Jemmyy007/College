@@ -1,0 +1,31 @@
+﻿<Window x:Class="oiko.Admin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:oiko"
+        mc:Ignorable="d"
+        Title="Admin" Height="400" Width="350" ResizeMode="NoResize">
+    <Grid Background="#FFA48BFF">
+        <Button Content="" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="40" Width="41" RenderTransformOrigin="0.5,0.5" Click="Button_Click" BorderBrush="#FFA48BFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-179.717"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Background>
+                <ImageBrush ImageSource="/pngwing.com (3).png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Админ" HorizontalAlignment="Center" Margin="0,105,0,0" VerticalAlignment="Top" Width="96" Height="42" FontSize="24" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Center" Height="104" Margin="0,10,0,0" VerticalAlignment="Top" Width="110" Source="/pngwing.com (6).png"/>
+        <Image HorizontalAlignment="Center" Height="49" Margin="0,70,0,0" VerticalAlignment="Top" Width="46" Source="/pngwing.com (7).png" RenderTransformOrigin="0.534,0.333"/>
+        <Button Content="Сотрудники" HorizontalAlignment="Center" Margin="0,221,0,0" VerticalAlignment="Top" Height="35" Width="100" FontWeight="Bold" Click="Button_Click_1" Background="#FF3733BD" Foreground="White"/>
+        <Label Content="Изменение данных о сотрудниках" HorizontalAlignment="Center" Margin="0,195,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.52,0.197" Foreground="White"/>
+        <Label Content="V 1.5.2" HorizontalAlignment="Left" Margin="284,337,0,0" VerticalAlignment="Top" Foreground="White" RenderTransformOrigin="0.664,0.509"/>
+
+    </Grid>
+</Window>

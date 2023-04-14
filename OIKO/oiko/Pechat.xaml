@@ -1,0 +1,35 @@
+﻿<Window x:Class="oiko.Pechat"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:oiko"
+        mc:Ignorable="d"
+        Title="Pechat" Height="657" Width="583" ResizeMode="NoResize">
+    <Grid x:Name="Print">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid x:Name="logoContainer1">
+
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0*"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label x:Name="lN" Content="OIKO" HorizontalAlignment="Left" Margin="40,10,0,0" VerticalAlignment="Top" FontFamily="Dubai Medium" FontSize="48" Foreground="Black" Width="862" Grid.Row="1" Height="85" Background="{x:Null}"/>
+            <Label x:Name="lall" Content="Всего устройств: " HorizontalAlignment="Left" Margin="40,172,0,0" VerticalAlignment="Top" FontFamily="Dubai Medium" FontSize="30" Foreground="Black" Width="519" Grid.Row="1" Height="110"/>
+            <Label x:Name="lsklad" Content="На складе: " HorizontalAlignment="Left" Margin="40,277,0,0" VerticalAlignment="Top" FontFamily="Dubai Medium" FontSize="30" Foreground="Black" Width="835" Grid.Row="1" Height="61"/>
+            <Label x:Name="luse" Content="Используется: " HorizontalAlignment="Left" Margin="40,343,0,0" VerticalAlignment="Top" FontFamily="Dubai Medium" FontSize="30" Foreground="Black" Width="835" Grid.Row="1" Height="61"/>
+            <Label x:Name="ldontWork" Content="Неисправно: " HorizontalAlignment="Left" Margin="40,409,0,0" VerticalAlignment="Top" FontFamily="Dubai Medium" FontSize="30" Foreground="Black" Width="835" Grid.Row="1" Height="61"/>
+            <Label x:Name="lDate" Content="Дата: " HorizontalAlignment="Left" Margin="40,541,0,0" VerticalAlignment="Top" FontFamily="Dubai Medium" FontSize="30" Foreground="Black" Width="835" Grid.Row="1" Height="61"/>
+
+        </Grid>
+        <Grid x:Name="up" Grid.Row="0" Grid.RowSpan="1" Margin="2,0,0,528">
+            <Button Content="Печать" HorizontalAlignment="Left" Margin="416,29,0,0" VerticalAlignment="Top" Click="Button_Click" Height="46" Width="135"/>
+        </Grid>
+
+        <Grid x:Name="logoContainer" Margin="2,68,-2,0"/>
+    </Grid>
+</Window>

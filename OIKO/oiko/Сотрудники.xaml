@@ -1,0 +1,55 @@
+﻿<Window x:Class="oiko.Сотрудники"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:oiko"
+        mc:Ignorable="d"
+        Title="Сотрудники" Height="523" Width="749" ResizeMode="NoResize">
+    <Grid Background="#FFA48BFF">
+        <Button Content="Добавить " HorizontalAlignment="Left" Margin="658,305,0,0" VerticalAlignment="Top" Height="34" Width="70" Click="Button_Click_1" Background="#FF3733BD" Foreground="White"/>
+        <Button Content="Изменить" HorizontalAlignment="Left" Margin="658,438,0,0" VerticalAlignment="Top" Height="30" Width="70" Click="Button_Click_2" Background="#FF3733BD" Foreground="White"/>
+        <Button Content="Удалить" HorizontalAlignment="Left" Margin="574,438,0,0" VerticalAlignment="Top" Height="30" Width="70" Click="Button_Click_3" Background="#FF3733BD" Foreground="White"/>
+        <TextBox x:Name="txtLoginAdd" HorizontalAlignment="Left" Margin="48,310,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" Height="30"/>
+        <TextBox x:Name="txtPassAdd" HorizontalAlignment="Left" Margin="186,310,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" Height="30"/>
+        <TextBox x:Name="txtKod" HorizontalAlignment="Left" Margin="48,374,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="61" Height="30" KeyUp="TextBox_KeyUp" TextChanged="txtKod_TextChanged"/>
+        <Label Content="Сотрудники" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="18" Foreground="White"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="4,3,0,0" VerticalAlignment="Top" Height="40" Width="41" RenderTransformOrigin="0.5,0.5" Click="Button_Click" BorderBrush="#FFA48BFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-179.717"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Background>
+                <ImageBrush ImageSource="/pngwing.com (3).png"/>
+            </Button.Background>
+        </Button>
+        <DataGrid x:Name = "GridStaff" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="45,49,41,245"/>
+        <ComboBox x:Name="comPostAdd" HorizontalAlignment="Left" Margin="533,309,0,0" VerticalAlignment="Top" Width="101" Height="30">
+            <ComboBoxItem Content="Админ"/>
+            <ComboBoxItem Content="Менеджер"/>
+        </ComboBox>
+        <TextBox x:Name="txtLoginChange" HorizontalAlignment="Left" Margin="122,374,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" Height="30"/>
+        <TextBox x:Name="txtPassChange" HorizontalAlignment="Left" Margin="260,374,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" Height="30"/>
+        <ComboBox x:Name="comPostChange" HorizontalAlignment="Left" Margin="607,373,0,0" VerticalAlignment="Top" Width="101" Height="30">
+            <ComboBoxItem Content="Админ"/>
+            <ComboBoxItem Content="Менеджер"/>
+        </ComboBox>
+        <TextBox x:Name="txtFIOadd" HorizontalAlignment="Left" Margin="339,310,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179" Height="30"/>
+        <TextBox x:Name="txtFIOchange" HorizontalAlignment="Left" Margin="413,374,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179" Height="30"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="84,279,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="228,279,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="ФИО" HorizontalAlignment="Left" Margin="410,279,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Должность" HorizontalAlignment="Left" Margin="548,279,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Код" HorizontalAlignment="Left" Margin="63,348,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.786,0.579" Foreground="White"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="158,348,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="302,348,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="ФИО" HorizontalAlignment="Left" Margin="484,348,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Должность" HorizontalAlignment="Left" Margin="622,348,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="V 1.5.2" HorizontalAlignment="Left" Margin="23,440,0,0" VerticalAlignment="Top" Foreground="White"/>
+
+    </Grid>
+</Window>

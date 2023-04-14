@@ -1,0 +1,12 @@
+C:\Users\Student\Desktop\oiko222\oiko\obj\x64\Release\oiko.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\oiko222\oiko\obj\x64\Release\oiko.csproj.SuggestedBindingRedirects.cache
+C:\Users\Student\Desktop\oiko222\oiko\obj\x64\Release\Admin.g.cs
+C:\Users\Student\Desktop\oiko222\oiko\obj\x64\Release\MainWindow.g.cs
+C:\Users\Student\Desktop\oiko222\oiko\obj\x64\Release\manager.g.cs
+C:\Users\Student\Desktop\oiko222\oiko\obj\x64\Release\sklad.g.cs
+C:\Users\Student\Desktop\oiko222\oiko\obj\x64\Release\Закупка.g.cs
+C:\Users\Student\Desktop\oiko222\oiko\obj\x64\Release\Сотрудники.g.cs
+C:\Users\Student\Desktop\oiko222\oiko\obj\x64\Release\учет.g.cs
+C:\Users\Student\Desktop\oiko222\oiko\obj\x64\Release\App.g.cs
+C:\Users\Student\Desktop\oiko222\oiko\obj\x64\Release\oiko_MarkupCompile.cache
+C:\Users\Student\Desktop\oiko222\oiko\obj\x64\Release\oiko_MarkupCompile.lref
